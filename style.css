@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.wrapper{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 1em;
+
+}
+
+.pageTitle{
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 95%;
+    margin: 1em;
+    text-decoration: underline;
+    
+}
+
+table{
+    /* margin:2em auto; */
+    border: 1px solid black;
+    width: 100%;
+    max-width: 100%;
+    /* table-layout: fixed; */
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    background-color: lightpink;
+}
+
+th{
+    background-color: lightskyblue;
+ 
+}
+
+/* .name{
+    width: 35%;
+}
+
+.club{
+    width: 30%;
+}
+
+.age{
+    width: 15%;
+} */
+
+/* .nation{
+width: 20%;
+} */
